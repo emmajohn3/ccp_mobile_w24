@@ -1,0 +1,57 @@
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+    row-gap: 10px;
+}
+.recipe_grid{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    justify-content:center;
+    row-gap: 10px;
+}
+nav{
+    text-align: center;
+}
+nav li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+}
+.active{
+    text-decoration: underline;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 120%;
+}
+nav a{
+    padding: 10px;
+    color: #000000;
+    border: 5px solid #9B4444;
+    background-color: #A3C9AA;
+}
+.skip{
+    visibility: hidden;
+}
+.skip:focus{ /*why is it just skipping over where it should be*/
+    visibility: visible;
+}
+body{
+    background-color: #C68484;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+img{
+    border: 5px solid #EEEEEE;
+}
+video{
+    border: 5px solid #EEEEEE;
+}
+h1{
+    text-align: center;
+    background-color: #9B4444
+}
+h2{
+    background-color: #A3C9AA;
+}
+h3{
+    background-color: #A3C9AA;
+}
