@@ -6,9 +6,6 @@
     row-gap: 10px;
     column-gap: 10px;
 }
-.item1{
-    grid-column: 1/3
-}
 .recipe_grid{
     width: 100%;
     display: grid;
